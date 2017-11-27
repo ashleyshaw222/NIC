@@ -13,11 +13,14 @@ import common.Webpage;
  */
 
 public class MainTescoWebpage extends Webpage {
-
-	//URL of previous page
-	String URL = null;
 	
 	//list of all the options on a submenu
 	List<HtmlOption> options = null;
+	
+	public MainTescoWebpage(String tempURL) {
+		
+		super(tempURL);
+		
+	}
 	
 }
